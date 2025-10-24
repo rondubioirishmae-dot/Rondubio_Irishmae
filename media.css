@@ -1,0 +1,175 @@
+ @media screen and (max-width: 1200px) {
+
+            .navbar {
+                
+                ul {
+                   background-color: black;
+                }
+
+
+                #logo {
+                    margin-top: -10px;
+                    font-size: 30px;
+                    margin-left: 16px;
+                }
+            }
+
+            .image-section {
+                grid-column: 1/11;
+
+                img{
+                    padding-inline: 20px;
+                    width: 40%;
+                    border-radius: 1px;
+                }
+            }
+
+            .text-section {
+                grid-column: 1/11;
+                padding-inline: 20px;
+                margin-left: 40%;
+
+                li:nth-child(1) {
+                    font-family: monospace;
+                    font-size: 1.7rem;
+                }
+
+                li:nth-child(2) {
+                    font-size: 1.2rem;
+                }
+            }
+        }
+ @media screen and (max-width: 900px) {
+
+            .navbar {
+                
+                ul {
+                   background-color:black;
+                }
+                 .ul li a{
+                    font-size: 25px;
+                    color: black;
+                 }
+                 
+                #logo {
+                    margin-top: -10px;
+                    font-size: 30px;
+                    margin-left: 16px;
+                }
+            }
+
+            .image-section {
+                grid-column: 1/11;
+
+                img{
+                    padding-inline: 20px;
+                    width: 90%;
+                    border-radius: 1px;
+                }
+            }
+
+            .text-section {
+                grid-column: 1/11;
+                padding-inline: 20px;
+
+                li:nth-child(1) {
+                    font-family: monospace;
+                    font-size: 1.7rem;
+                }
+
+                li:nth-child(2) {
+                    font-size: 1.2rem;
+                }
+            }
+        }
+        @media screen and (max-width: 700px) {
+
+            .navbar {
+                background-color: rgb(225, 195, 0);
+                ul {
+                    display: none;
+                }
+
+                #menu {
+                    display: block;
+                    float: right;
+                }
+
+                #logo {
+                    margin-top: -10px;
+                    font-size: 30px;
+                    margin-left: 16px;
+                }
+            }
+
+            .image-section {
+                grid-column: 1/11;
+
+                img{
+                    padding-inline: 20px;
+                    width: 90%;
+                  
+                }
+            }
+
+            .text-section {
+                grid-column: 1/11;
+                padding-inline: 20px;
+
+                li:nth-child(1) {
+                    font-family: monospace;
+                    font-size: 1.9rem;
+                }
+
+                li:nth-child(2) {
+                    font-size: 3.1rem;
+                }
+            }
+        }
+
+        @media screen and (max-width: 400px) {
+
+            .navbar {
+                background-color: rgb(225, 195, 0);
+                ul {
+                    display: none;
+                }
+
+                #menu {
+                    display: block;
+                    float: right;
+                }
+
+                #logo {
+                    margin-top: -10px;
+                    font-size: 30px;
+                    margin-left: 16px;
+                }
+            }
+
+            .image-section {
+                grid-column: 1/11;
+
+                img{
+                    padding-inline: 20px;
+                    width: 90%;
+                    height: auto;
+
+                }
+            }
+
+            .text-section {
+                grid-column: 1/11;
+                padding-inline: 20px;
+                margin-left: 30%;
+
+                li:nth-child(1) {
+                    font-family: monospace;
+                    font-size: 1.8rem;
+                }
+
+                li:nth-child(2) {
+                    font-size: 3rem;
+                }
+            }
+        }
