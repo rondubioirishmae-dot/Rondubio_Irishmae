@@ -10,13 +10,10 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   font-family: Arial, Helvetica, sans-serif;
+  height: 100dvh;
 }
 
-header {
-  background: #fff;
-  text-align: left;
-  padding: 10px;
-}
+
 
 .grid-container>div {
   font-size: 30px;
@@ -121,3 +118,4 @@ header {
   font-size: 1.2rem;
   color: gray;
 }
+
